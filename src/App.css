@@ -8,12 +8,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 8vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 1px solid tomato;
+}
+
+.main-title {
+  margin-top: 1rem;
+}
+
+/* classe container natif à bootsrap ! */
+.card-container {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid lightgray; */
 }
 
